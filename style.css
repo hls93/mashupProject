@@ -1,0 +1,19 @@
+.navBar{
+  border: solid black;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.navBar li{
+  margin: none;
+  list-style: none;
+}
+
+.navBar li a{
+
+  text-decoration: none;
+  font-size: 20px;
+
+}
