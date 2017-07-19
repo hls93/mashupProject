@@ -1,7 +1,3 @@
-header{
-  text-align: center;
-}
-
-.dumbellDonut{
-  position: fixed;
+.donuts{
+  border: solid black;
 }
