@@ -72,3 +72,29 @@
   height: 40px;
   border-radius: 10px;
 }
+
+/*Styling for Gym Section*/
+
+.gym{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.gymImg img{
+  object-fit: cover;
+  height: 100%;
+  width: 240%;
+}
+
+/*.gymSearch{
+  width: 48%;
+}*/
+
+.gymSearch img{
+  width: 600px;
+  height: 380px;
+  object-fit: cover;
+  overflow: hidden;
+  margin-left: 26px;
+}
