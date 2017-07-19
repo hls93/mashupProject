@@ -37,3 +37,38 @@
   object-fit: cover;
   overflow: hidden;
 }
+
+.dSContent{
+  text-align: center;
+  position: relative;
+  bottom: 380px;
+}
+
+.dSContent h3{
+  font-size: 50px;
+  color: #F08080;
+  text-shadow: 2px 2px white;
+  font-family: 'Pacifico', cursive;
+}
+
+.dSContent input{
+  color: #2F4F4F;
+  font-family: 'Pacifico', cursive;
+  font-size: 16px;
+  border: none;
+  height: 30px;
+  background-color: #66CDAA;
+  width: 250px;
+}
+
+.dSContent button{
+  font-family: 'Pacifico', cursive;
+  color: #2F4F4F;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:#F08080;
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+}
