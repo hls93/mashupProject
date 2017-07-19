@@ -1,19 +1,47 @@
+body{
+  margin: 0 auto;
+}
 .navBar{
-  border: solid black;
+  height: 80px;
+  background-color: #FFEBCD;
   display: flex;
   flex-direction: row;
   text-align: center;
+  align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
 }
 
 .navBar li{
+  padding-right: 80px;
   margin: none;
   list-style: none;
 }
 
 .navBar li a{
-
+  color: #1a3300;
   text-decoration: none;
   font-size: 20px;
+}
 
+.main{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #D2B48C;
+}
+
+h1{
+  margin-left: 70px;
+  width: 90%;
+  border: solid black;
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
 }
