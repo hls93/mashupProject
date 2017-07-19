@@ -1,4 +1,6 @@
-/*font-family: 'Pacifico', cursive;*/
+/*font-family: 'Pacifico', cursive;
+'Alfa+Slab+One'*/
+
 .donuts{
   height: 380px;
   display: flex;
@@ -80,6 +82,10 @@
   flex-direction: row;
 }
 
+.gymImg{
+  width: 298px;
+  height: 380px;
+}
 
 .gymImg img{
   object-fit: cover;
@@ -87,14 +93,16 @@
   width: 240%;
 }
 
-/*.gymSearch{
-  width: 48%;
-}*/
-
 .gymSearch img{
   width: 600px;
   height: 380px;
   object-fit: cover;
   overflow: hidden;
   margin-left: 26px;
+}
+
+.gymSearch h2{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 100px;
+  text-align: center;
 }
