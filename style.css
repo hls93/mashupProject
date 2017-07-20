@@ -1,21 +1,45 @@
 /*font-family: 'Pacifico', cursive;
 'Alfa+Slab+One'*/
+header{
+  height: 80px;
+  background: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  background: #A52A2A;
+}
+
+body{
+  padding: none;
+  margin: none;
+  width: 100%;
+}
+
+.header{
+  color: white;
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+}
+
 
 .donuts{
-  height: 380px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 .donutImg{
-  width: 50%;
+  height: 600px;
+  width: 100%;
 }
 
 .donutImg h1{
   position: relative;
   text-align: center;
-  bottom: 350px;
+  bottom: 430px;
   color: #F08080;
   font-size: 90px;
   text-shadow: 2px 2px white;
@@ -24,18 +48,19 @@
 
 .donutImg img{
   width: 100%;
-  height: 380px;
+  height: 600px;
   object-fit: cover;
   overflow: hidden;
 }
 
 .donutSearch{
-  width: 50%;
+  height: 600px;
+  width: 100%;
 }
 
 .donutSearch img{
   width: 100%;
-  height: 380px;
+  height: 600px;
   object-fit: cover;
   overflow: hidden;
 }
@@ -43,7 +68,7 @@
 .dSContent{
   text-align: center;
   position: relative;
-  bottom: 380px;
+  bottom: 410px;
 }
 
 .dSContent h3{
@@ -79,29 +104,30 @@
 
 
 .gym{
-  height: 380px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 .gymSearch{
-  width: 50%;
+  height: 600px;
+  width: 100%;
 }
 .gymImg{
-  width: 50%;
+  height: 600px;
+  width: 100%;
 }
 
 .gymImg img{
   width: 100%;
-  height: 380px;
+  height: 600px;
   object-fit: cover;
   overflow: hidden;
 }
 
 .gymSearch img{
   width: 100%;
-  height: 380px;
+  height: 600px;
   object-fit: cover;
   overflow: hidden;
 }
@@ -111,7 +137,7 @@
   font-size: 100px;
   text-align: center;
   position: relative;
-  bottom: 350px;
+  bottom: 320px;
   text-shadow: 3px 3px white;
   color: red;
   margin-left: 30px;
@@ -148,5 +174,5 @@ text-shadow: 3px 3px red;
 .gymSearchcontent{
   text-align: center;
   position: relative;
-  bottom: 320px;
+  bottom: 380px;
 }
