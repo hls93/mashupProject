@@ -22,10 +22,13 @@ body{
   width: 100%;
 }
 
-.header{
+#header{
+  border: none;
+  background: #A52A2A;
+  text-decoration: none;
+  font-size: 32px;
   color: white;
   font-family: 'Marck Script', cursive;
-  text-align: center;
 }
 
 #donutButton{
@@ -52,6 +55,16 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+input:focus{
+  outline: none
+  !important;
+}
+
+button:focus{
+  outline: none
+  !important;
 }
 
 .donutImg{
