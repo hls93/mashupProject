@@ -26,8 +26,7 @@
         <img src="images/donuts.jpg" alt="">
         <div class="dSContent">
           <h3>Donuts Near You</h3>
-          <input type="text" name="input" value="">
-          <button type="button" name="search">Search</button>
+          <button id="donutButton" type="button" name="search">Search</button>
         </div>
       </div>
     </div>
@@ -44,11 +43,49 @@
         <img src="images/dumbbells.jpeg" alt="dumbbells">
         <div class=gymSearchcontent>
         <h4>Find a gym near you</h4>
-        <input type="text" name="input" value="">
-        <button type="button" name="gymlocator">Search</button>
+        <button id="dumbbells" type="button" name="gymlocator">Search</button>
       </div>
     </div>
+
+    <div id="map"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDJs9UE0QyxDbT-WEOO05tl4_IAQUo70Q&libraries=places&callback=initMap"
+  async defer></script>
 
   </body>
 
 </html>
+
+<!-- header{
+  height: 80px;
+  background: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: #A52A2A;
+}
+
+body{
+  padding: none;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header{
+  color: white;
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+}
+
+.anchor{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: 'Marck Script', cursive;
+} -->
