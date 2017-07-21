@@ -10,11 +10,12 @@
   <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 </head>
 
+<!--This starts the main portion of the page -->
   <body>
     <header>
-      <a class="anchor" href="#donuts">Donuts</a>
+      <button id="donutButton" type="button" name="search">Donuts</button>
       <h1 class="header">Donuts and Dumbells</h1>
-      <a class="anchor" href="#gym">Dumbells</a>
+      <button id="dumbbells" type="button" name="gymlocator">Dumbells</button>
     </header>
 
     <div id="donuts">
@@ -26,7 +27,6 @@
         <img src="images/donuts.jpg" alt="">
         <div class="dSContent">
           <h3>Donuts Near You</h3>
-          <button id="donutButton" type="button" name="search">Search</button>
         </div>
       </div>
     </div>
@@ -43,13 +43,17 @@
         <img src="images/dumbbells.jpeg" alt="dumbbells">
         <div class=gymSearchcontent>
         <h4>Find a gym near you</h4>
-        <button id="dumbbells" type="button" name="gymlocator">Search</button>
       </div>
     </div>
 
-    <div id="map"></div>
+
+
+<!--============ Map Section =============== -->
+  <div id="map"></div>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDJs9UE0QyxDbT-WEOO05tl4_IAQUo70Q&libraries=places&callback=initMap"
   async defer></script>
+  <script src="main.js">
+  </script>
 
   </body>
 

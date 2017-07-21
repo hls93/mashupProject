@@ -1,7 +1,5 @@
 // // Map API from Google + Place marker functionality
 
-body.appendChild(main_content);
-
 let body = document.querySelector('body');
 let donuts = document.querySelector('#donutButton');
 let dumbbells = document.querySelector('#dumbbells')
@@ -14,9 +12,9 @@ let dumbbells = document.querySelector('#dumbbells')
 function initMap() {
 var raleigh = {lat: 35.7770, lng: -78.6382};
 
-  map = new google.maps.Map(document.getElementById('map'), {
+map = new google.maps.Map(document.getElementById('map'), {
     center: raleigh,
-    zoom: 16,
+    zoom: 15,
   });
 }
 

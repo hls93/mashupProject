@@ -162,6 +162,7 @@ font-size: 60px;
 font-family: 'Alfa Slab One', cursive;
 color: white;
 text-shadow: 3px 3px red;
+margin: 0 auto;
 }
 
 .gymSearchcontent input{
@@ -190,13 +191,13 @@ text-shadow: 3px 3px red;
   bottom: 300px;
 }
 
-/*#map {
-  height: 60%;
+#map {
+  border: 1px solid red;
+  height: 50%;
   width: 40%;
-  margin: 20px auto;
-  margin-top: 25px;
+  position: absolute;
+  z-index: 1;
   border-radius: 100px;
   box-shadow: 10px 10px 10px black;
-  display: hidden;
-
-}*/
+  margin-top: -200px;
+}
