@@ -25,7 +25,7 @@ var raleigh = {lat: 35.7780, lng: -78.6382};
   service.nearbySearch({
     location: raleigh,
     radius: 500,
-    keyword: ["donuts"],
+    keyword: ["breakfast"],
   }, callback);
 })
 
